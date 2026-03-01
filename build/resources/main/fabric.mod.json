@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "onyx",
+  "version": "1.21.8",
+  "name": "onyx",
+  "description": "free and opensource client base",
+  "authors": [
+    "erikfix"
+  ],
+  "contact": {
+    "repo": "https://github.com/mioclient/oyvey-ported"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "accessWidener": "oyvey.accesswidener",
+  "entrypoints": {
+    "client": [
+      "me.alpha432.oyvey.OyVey"
+    ],
+    "main": [
+      "me.alpha432.oyvey.OyVey"
+    ]
+  },
+  "mixins": [
+    "oyvey.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric": "*",
+    "minecraft": "1.21.8"
+  }
+}

@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	me/alpha432/oyvey/mixin/MixinClientConnection	Lio/netty/channel/Channel;	channel	field_11651
+FIELD	me/alpha432/oyvey/mixin/MixinClientConnection	Lnet/minecraft/network/NetworkSide;	side	field_11643
+FIELD	me/alpha432/oyvey/mixin/MixinRenderTickCounter	F	dynamicDeltaTicks	field_51958
